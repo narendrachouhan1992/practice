@@ -28,4 +28,20 @@ public class CloudeJumping {
 		}
 		return dp[0];
     }
+
+	static int jumpingOnClouds(int[] c, int k) 
+	{
+		int pow = 100;
+		int pos = 0;
+		while(true)
+		{
+			pow--;
+			pos = (pos+k)%c.length;
+			if (c[pos]==1) {
+				pow-=2;
+			}
+			if(pos == 0)
+			return pow;
+		}
+    }
 }

@@ -1,6 +1,5 @@
 package GeeksForGeeks;
 
-import apple.laf.JRSUIUtils.Tree;
 
 public class ConnectLeavesDoublyLinkedList {
 	TreeNode head;

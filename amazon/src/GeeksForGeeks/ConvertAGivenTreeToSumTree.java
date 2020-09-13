@@ -1,6 +1,5 @@
 package GeeksForGeeks;
 
-import sun.reflect.generics.tree.TypeTree;
 
 public class ConvertAGivenTreeToSumTree {
 	int getSumtree(TreeNode node)

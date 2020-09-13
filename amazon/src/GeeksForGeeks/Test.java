@@ -51,7 +51,7 @@ public class Test {
 		ls.add(5);
 		ls.add(10);
 		ls.add(20);
-		ls.stream().collect().
+
 		
 	}
 }

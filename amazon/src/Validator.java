@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Validator {
 	static void validate(String s) throws AlphaNeumericException, StringException
 	{
-		Scanner 
+
 		if(s.matches(".*\\d.*"))
 			{
 			
